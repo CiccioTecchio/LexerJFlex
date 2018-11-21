@@ -10,13 +10,26 @@ public interface CircuitSym {
   public static final int error = 1;
   public static final int EOF = 0;
   public static final int KEYWORD = 2;
-
+  public static final int RELOP = 3;
+  public static final int NCONST = 4;
+  public static final int ID= 5;
+  public static final int SEPARATOR= 6;
+  public static final int RCONST= 7;
+  public static final int SIGN= 8;
+  public static final int ECONST= 9;
   
   
   public static final String[] terminalNames = new String[] {
   "EOF",
   "error",
   "KEYWORD",
+  "RELOP",
+  "NCONST",
+  "ID",
+  "SEPARATOR",
+  "RCONST",
+  "SIGN",
+  "ECONST"
   };
 }
 
